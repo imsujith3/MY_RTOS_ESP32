@@ -1,0 +1,9 @@
+idf_component_register(
+    SRCS 
+        "main.c"
+        "src/timer.c"
+        "src/task.c"
+        "src/scheduler.c"
+    INCLUDE_DIRS 
+        "inc"
+)
